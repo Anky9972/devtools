@@ -1,36 +1,128 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# DevTools - Web Utility Suite
 
-## Getting Started
+![DevTools Banner](public/assets/banner.png)
 
-First, run the development server:
+DevTools is a comprehensive web application that provides a collection of commonly needed utilities and tools for everyday use. Built with React and styled with Tailwind CSS, it offers a clean, intuitive interface for various calculations, conversions, and data manipulations.
 
+## 🌟 Features
+
+### File & Media Tools
+- File format conversions
+- Image optimization
+- PDF tools
+- File size reducer
+
+### Text Tools
+- Case converter
+- Grammar checker
+- Word counter
+- Lorem ipsum generator
+
+### Time Tools
+- Timezone converter
+- Meeting planner
+- Countdown timer
+- Pomodoro timer
+- Date calculator
+
+### Calculators
+- Currency converter
+- Scientific calculator
+- Percentage calculator
+- Loan calculator
+- Unit converter
+
+### Data Tools
+- JSON formatter
+- CSV JSON converter
+- Password generator
+- QR code generator
+
+### Developer Tools
+- Code formatter
+- Regex tester
+- Base64 converter
+- Markdown previewer
+- SQL to CAML converter
+- Hash generator
+- HTML to Markdown converter
+- Markdown to HTML converter
+- XML to JSON converter
+- JSON to XML converter
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js (v16.0.0 or higher)
+- npm (v7.0.0 or higher)
+
+### Installation
+
+1. Clone the repository
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/Anky9972/dev-tools.git
+cd devtools
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies
+```bash
+npm install
+```
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+3. Start the development server
+```bash
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. Build for production
+```bash
+npm run build
+```
 
-## Learn More
+## 💻 Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
+- **Frontend Framework:** Next.js
+- **Styling:** Tailwind CSS
+- **Icons:** Lucide React
+- **UI Library:** Shadcn UI
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📱 Responsive Design
 
-## Deploy on Vercel
+The application is fully responsive and works on:
+- Desktop (1024px and above)
+- Tablet (768px to 1023px)
+- Mobile (below 768px)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🔍 Testing
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Run tests using:
+```bash
+npm test
+```
+
+## 🚀 Deployment
+
+1. Build the project:
+```bash
+npm run build
+```
+
+2. Deploy the `dist` folder to your hosting service
+
+
+## 🙏 Acknowledgments
+
+- [React](https://reactjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Lucide Icons](https://lucide.dev/)
+- [Vite](https://vitejs.dev/)
+- [Shadcn UI](https://ui.shadcn.com/)
+
+
+Project Link: [https://github.com/Anky9972/dev-tools](https://github.com/Anky9972/devtools)
+
+Live Demo: [https://developerstool.netlify.app/](https://developerstool.netlify.app/)
+---
+
+Made with ❤️ by [Vivek Gaur]
