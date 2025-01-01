@@ -98,6 +98,7 @@ const PasteBin = () => {
     }
   }, []);
 
+  
   const formatCode = (code, lang) => {
     const lines = code.split('\n');
     if (!lineNumbers) return code;
