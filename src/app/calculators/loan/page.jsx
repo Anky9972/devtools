@@ -8,7 +8,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Button } from "@/components/ui/button";
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
 import { Calculator, Calendar, ChartSpline, PieChart, RefreshCw } from "lucide-react";
-import LoanVisualization from "../common/Visualizer";
+import LoanVisualization from "../../common/Visualizer";
 
 const LoanCalculator = () => {
   const [loanAmount, setLoanAmount] = useState("");
